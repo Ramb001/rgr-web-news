@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter !important;
+  font-weight: 400;
+  --cui-border-width: none;
+  --cui-border-color: none;
+}
+
+body {
+  background-color: #042326 !important;
+}
+
+h1,
+h2,
+span,
+p {
+  color: white !important;
+}
